@@ -1,0 +1,185 @@
+header{
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imagenes/cancun.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 2%;
+    color: white;
+    text-align: start;
+
+
+    h2{
+        font-size: 500%;
+        
+    }
+    @media only screen and (max-width: 576px) {
+        h2{
+            font-size: 250%;
+            
+        }
+    }
+    
+    
+}
+
+/*generales*/
+li{
+    list-style: none;
+}
+.general{
+    text-align: center;
+    padding: 4%;
+    
+    h2{
+        font-size: 300%;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 300%;
+    }
+    h4{
+        font-size: 150%;
+        font-weight: bold;
+    }
+    p{
+        font-size: 130%;
+    }
+    button{
+        margin-bottom: 20%;
+    }
+    .g-img{
+        width: 100%;           /* Ancho fijo */
+        height: 250px;          /* Alto fijo */
+        object-fit: cover; 
+        margin-bottom: 10%;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+    @media only screen and (max-width: 576px) {
+        .c-img{
+            width: 100%;           /* Ancho fijo */
+            height: 50%;          /* Alto fijo */
+            object-fit: cover; 
+            margin-bottom: 10%;
+            border-radius: 10px;
+        }
+
+    }
+    .c-img{
+        width: 100%;           /* Ancho fijo */
+        height: 500px;          /* Alto fijo */
+        object-fit: cover; 
+        margin-bottom: 10%;
+        border-radius: 10px;
+    }
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+logo{
+    text-align: center;
+}
+
+.inicio{
+    margin-left: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    a{
+        color: white;
+        background: none;
+    }
+    button{
+        background: none;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}
+.destino{
+    margin: 2%;
+    color: black;
+}
+
+.garantia{
+    text-align: center;
+    padding: 1% 4%;
+    h3{
+        font-weight: bold;
+    }
+    p{
+        font-size: 120%;
+    }
+    svg{
+        width: 8%;
+        margin-bottom: 4%;
+    }
+}
+
+.ultimo{
+    button{
+        color: black;
+        background: none;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    a{
+        color: black;
+        font-size: 120%;
+    }
+}
+
+.img-testimonio {
+    width: 100px;  /* Ajusta al tamaño deseado */
+    height: 100px; /* Asegura que todas tengan la misma altura */
+    object-fit: cover; /* Recorta la imagen para ajustarla sin deformarla */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin-bottom: 4%;
+}
+.testimonio{
+    padding: 2%;
+    background-color: #D9D9D6;
+}
+
+/*Styles para formulario*/
+form{
+    textarea{
+        width: 100%;
+    }
+    .content-b{
+        text-align: center;
+        button{
+            background: none;
+            color: black;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+/*Section de gracias*/
+.gracias{
+    text-align: center;
+    color:white;
+    background-color: black;
+    padding: 2%;
+    button{
+        background: black;
+        border-color: black;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+  
+  
